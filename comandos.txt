@@ -2,6 +2,12 @@
 # Comandos Git
 #=============
 
+# Instalar librerías 
+pip3 install -r requirements.txt
+
+##
+source.venv/bin/activate
+
 # Revisar estado
 git status
 
@@ -13,3 +19,7 @@ git commit -m "backup"
 
 # Cargar cambios al repositorio
 git push origin main
+
+# Correr la pagina con stream lit 
+
+streamlit run app.py
